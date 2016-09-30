@@ -1,0 +1,22 @@
+{% extends 'users/base.html' %}
+
+{% block content %}
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="jumbotron">
+        <h1>Welcome, you can manage your user's here.</h1>
+           <p>
+              <a href="/list/" class="btn btn-primary btn-lg">
+                List users
+              </a>
+              <a href="/add/" class="btn btn-primary btn-lg">
+                Add user
+              </a>
+           </p>
+         </div>
+       </div>
+    </div>
+  </div>
+
+{% endblock %}
